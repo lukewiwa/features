@@ -13,8 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - shellcheck
         baseImage:
           - debian:latest
           - ubuntu:latest
