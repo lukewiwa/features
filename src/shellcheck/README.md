@@ -3,6 +3,14 @@
 
 Shellcheck
 
+## Example Usage
+
+```json
+"features": {
+    "ghcr.io/lukewiwa/features/shellcheck:0": {}
+}
+```
+
 ## Options
 
 | Options Id | Description | Type | Default Value |
@@ -13,4 +21,4 @@ Shellcheck
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/lukewiwa/devcontainer-features/blob/main/src/shellcheck/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/lukewiwa/features/blob/main/src/shellcheck/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
