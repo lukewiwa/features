@@ -19,6 +19,7 @@ jobs:
           - debian:latest
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
+          - amazonlinux:2
     steps:
       - uses: actions/checkout@v2
 
