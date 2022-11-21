@@ -6,7 +6,7 @@ VERSION=${SC_VERSION:-"stable"}
 
 if command -v apt-get >/dev/null 2>&1; then
     apt-get update
-    apt-get install -y xz-utils
+    apt-get install -y curl xz-utils
 elif command -v yum >/dev/null 2>&1; then
     yum install -y tar xz
 else
