@@ -1,0 +1,20 @@
+{
+    "id": "shellcheck",
+    "version": "0.1.0",
+    "name": "Shellcheck",
+    "description": "Shellcheck",
+    "options": {
+        "version": {
+            "type": "string",
+            "description": "version of shellcheck to install",
+            "proposals": [
+                "stable",
+                "0.8.0"
+            ],
+            "default": "stable"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
