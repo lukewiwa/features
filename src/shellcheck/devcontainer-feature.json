@@ -1,6 +1,6 @@
 {
     "id": "shellcheck",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "name": "Shellcheck",
     "description": "Shellcheck",
     "options": {
@@ -13,5 +13,12 @@
             ],
             "default": "stable"
         }
-    }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "timonwong.shellcheck"
+            ]
+        }
+    },
 }
