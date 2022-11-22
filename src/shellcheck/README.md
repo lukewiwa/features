@@ -17,6 +17,9 @@ Shellcheck
 |-----|-----|-----|-----|
 | version | version of shellcheck to install | string | stable |
 
+# Linux Variant Support
+
+This should be installable on Debian and CentOS/RHEL/Amazon linux variants
 
 
 ---
