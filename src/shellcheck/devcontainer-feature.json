@@ -1,6 +1,6 @@
 {
     "id": "shellcheck",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "name": "Shellcheck",
     "description": "Shellcheck",
     "options": {
@@ -9,7 +9,8 @@
             "description": "version of shellcheck to install",
             "proposals": [
                 "stable",
-                "0.8.0"
+                "v0.8.0",
+                "v0.7.2"
             ],
             "default": "stable"
         }
