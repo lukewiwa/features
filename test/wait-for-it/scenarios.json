@@ -1,0 +1,13 @@
+{
+    "wait-for-it-localhost": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "wait-for-it": {
+                "host": "localhost",
+                "port": "80",
+                "timeout": "1",
+                "strict": true
+            }
+        }
+    }
+}

@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - shellcheck
+          - wait-for-it
         baseImage:
           - debian:latest
           - ubuntu:latest

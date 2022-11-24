@@ -1,0 +1,37 @@
+{
+    "id": "wait-for-it",
+    "version": "0.1.0",
+    "name": "wait-for-it",
+    "description": "wait-for-it",
+    "entrypoint": "/usr/local/share/wait-for-it-entrypoint.sh",
+    "options": {
+        "host": {
+            "type": "string",
+            "description": "Host or IP under test",
+            "proposals": [
+                "localhost"
+            ],
+            "default": "localhost"
+        },
+        "port": {
+            "type": "string",
+            "description": "TCP port under test",
+            "default": "80"
+        },
+        "timeout": {
+            "type": "string",
+            "description": "Timeout in seconds, zero for no timeout",
+            "default": "15"
+        },
+        "strict": {
+            "type": "boolean",
+            "description":"Only execute subcommand if the test succeeds",
+            "default": false
+        },
+        "quiet": {
+            "type": "boolean",
+            "description":"Don't output any status messages",
+            "default": false
+        }
+    }
+}
