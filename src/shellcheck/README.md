@@ -1,7 +1,7 @@
 
 # Shellcheck (shellcheck)
 
-Shellcheck
+A static analysis tool for shell scripts
 
 ## Example Usage
 
