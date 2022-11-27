@@ -1,8 +1,8 @@
 {
     "id": "shellcheck",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "name": "Shellcheck",
-    "description": "Shellcheck",
+    "description": "A static analysis tool for shell scripts",
     "options": {
         "version": {
             "type": "string",
